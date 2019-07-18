@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .hidden{
+    display: none;
+  }
+  
+  img {
+    max-width: 500px;
+    
+  }
+  section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+    padding: 40px;
+  }
+  .youtubeThumbnail {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+    
