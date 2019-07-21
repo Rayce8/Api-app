@@ -1,6 +1,6 @@
 <h1>Game Recommendations</h1>
 <a href = 'https://rayce8.github.io/Api-app/'>live app</a>
-<h2>screen shots</h2>
+<h2>Screen Shots</h2>
 <img src ='https://imgur.com/Ults7Yg'>
 <img src ='https://imgur.com/VbmYess'>
 <h2> App summary</h2>
