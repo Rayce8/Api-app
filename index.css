@@ -1,27 +1,84 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+background-color: rgb(54, 52, 52);
+color: antiquewhite;
+}
+
+
+.hidden{
+  display: none;
+}
+
+img {
+  max-width: 500px;
+  
+}
+.results {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   
   
-  .hidden{
-    display: none;
-  }
   
-  img {
-    max-width: 500px;
-    
-  }
-  section {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    
-    padding: 40px;
-  }
-  .youtubeThumbnail {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-  }
+}
+.youtubeThumbnail {
+  display:inline-block;
+  max-width: 300px;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+.baseInfo {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align:center;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
   
+}
+
+.baseInfo img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameResultsInfo {
+display: flex;
+justify-content: center;
+margin-left: 0;
+  margin-right: 0;
+  
+}
+main {
+  text-align: center;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+h3 {
+  background-color: crimson;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  
+  
+}
+
+#gamesList {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
     
