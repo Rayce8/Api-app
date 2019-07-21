@@ -37,27 +37,20 @@ $(`*[${GAME_UNIQUE_KEY_ATTRIBUTE}="${gameName}"]`).append(
 
 function displayResults(responseJson) {
   console.log(responseJson);
-  /*findVids ()*/
- 
+ $('#results').removeClass('hidden');
   $('#gamesList').empty();
  for (let i = 0; i < responseJson.results.length; i++) { 
   let resultsName = `${responseJson.results[i].name}`;
   $('#gamesList').append(
-    `<section ${GAME_UNIQUE_KEY_ATTRIBUTE}="${resultsName}" class = 'gameResultsInfo'><h2>${responseJson.results[i].name}</h2>
-    <img src='${responseJson.results[i].background_image}'>  
+    `<section class = 'baseInfo'><h3>${responseJson.results[i].name}</h3>
+    <img src='${responseJson.results[i].background_image}'></section>
+    <section ${GAME_UNIQUE_KEY_ATTRIBUTE}="${resultsName}" class = 'gameResultsInfo'> 
    </section>`);
-   
     findVids (resultsName);
    }
    };
 
-   /* for (let j = 0; j < responseJson.results.stores.length; j++) {
-     $(`.gameResultsInfo`).append(`<a href='${responseJson.results[i].stores[j].url}'>Store Website</a>`)*/
-   /*$('#results').removeClass('hidden');*/
-
-
-  /*function displayYoutubeVid (responseJson) {
-console.log(responseJson)*/ 
+   
 
   
 function displayErrorMessage(message){
