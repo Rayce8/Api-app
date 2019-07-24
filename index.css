@@ -29,7 +29,7 @@ img {
 .youtubeThumbnail {
   display:inline-block;
   max-width: 300px;
-  padding: 40px;
+  padding: 20px;
 }
 
 h1 {
@@ -81,4 +81,30 @@ h3 {
   padding: 0;
 }
 
+
+@media screen and (max-width: 480px) {
+  .header {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .youtubeThumbnail {
+  display:block;
+  width: 300px;
+  max-width: 100%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gameResultsInfo {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+  
+}
+  
+}    
     
