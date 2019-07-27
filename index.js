@@ -12,7 +12,7 @@ const apiKey = 'AIzaSyAdDw2g3-gjyBqGs1tdxIUhS3S5V_T5gDo'
 /*https://rawg.io/apidocs*/
 
 function findVids (resultsName) {
-  const vidURL = `https://www.googleapis.com/youtube/v3/search/?part=snippet&q=${resultsName}&key=AIzaSyAdDw2g3-gjyBqGs1tdxIUhS3S5V_T5gDo&maxResults=3`
+  const vidURL = `https://www.googleapis.com/youtube/v3/search/?type=video&part=snippet&q=${resultsName}&key=AIzaSyAdDw2g3-gjyBqGs1tdxIUhS3S5V_T5gDo&maxResults=3`
   fetch(vidURL)
   .then(response =>{
     if (response.ok) {
